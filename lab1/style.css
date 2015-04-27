@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+body > * {
+	padding: 10px 0;
+}
+
+input[type="color"] {
+	width: 100px;
+	height: 100px;
+	margin: 50px auto;
+	background-size: cover;
+}
+
+.sliders {
+	/*border: 1px solid #000;*/
+}
+
+.sliders > * {
+	display: inline-block;
+	width: 25%;
+}
+
+.sliders > * > * {
+	display: block;
+	padding: 5px 0;
+}
+
+.sliders input[type="range"], input[type="text"] {
+	vertical-align: middle;
+	margin: 0 5px;
+}
+
+.panel {
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	border: 1px dotted #000;
+	margin: 50px auto;
+}

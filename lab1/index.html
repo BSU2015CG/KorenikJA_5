@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>lab1</title>
+</head>
+<body>
+	<input type="color" value="#ffffff">
+	<div class="sliders">
+		<div id="rgb">
+			<div>R<input type="text" value="0" size="2" readonly>
+			<input type="range" min="0" max="255" step="1" value="0" name="red"></div>
+			<div>G<input type="text" value="0" size="2" readonly>
+			<input type="range" min="0" max="255" step="1" value="0" name="green"></div>
+			<div>B<input type="text" value="0" size="2" readonly>
+			<input type="range" min="0" max="255" step="1" value="0" name="blue"></div>
+		</div><!--
+		--><div id="cmy">
+			<div>C<input type="text" value="255" size="2" readonly>
+			<input type="range" min="0" max="255" step="1" value="255" name="cyan"></div>
+			<div>M<input type="text" value="255" size="2" readonly>
+			<input type="range" min="0" max="255" step="1" value="255" name="magenta"></div>
+			<div>Y<input type="text" value="255" size="2" readonly>
+			<input type="range" min="0" max="255" step="1" value="255" name="yellow"></div>
+		</div><!--
+		--><div id="hsv">
+			<div>H<input type="text" value="0" size="2" readonly>
+			<input type="range" min="0" max="359" step="1" value="0" name="hue"></div>
+			<div>S<input type="text" value="0" size="2" readonly>
+			<input type="range" min="0" max="100" step="1" value="0" name="saturation"></div>
+			<div>V<input type="text" value="0" size="2" readonly>
+			<input type="range" min="0" max="100" step="1" value="100" name="value"></div>
+		</div><!--
+		--><div id="luv">
+			<div>L<input type="text" value="0" size="2" readonly>
+			<input type="range" min="0" max="100" step="1" value="0" name="l"></div>
+			<div>U<input type="text" value="0" size="2" readonly>
+			<input type="range" min="0" max="100" step="1" value="0" name="u"></div>
+			<div>V<input type="text" value="0" size="2" readonly>
+			<input type="range" min="0" max="100" step="1" value="0" name="v"></div>
+		</div>
+	</div>
+	<div class="panel" id="panel">
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
